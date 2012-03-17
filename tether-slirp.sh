@@ -5,7 +5,7 @@
 # See http://ajasmin.wordpress.com/2011/07/24/android-usb-tethering-with-a-linux-pc/
 
 # Path to ADB
-export ADB=/opt/android-sdk-linux_x86/platform-tools/adb
+export ADB=/opt/android-sdk/platform-tools/adb
 
 if [ $USER != "root" ]; then
 	echo "Please run this script as root"

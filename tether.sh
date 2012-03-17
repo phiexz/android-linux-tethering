@@ -6,7 +6,7 @@
 # Requires a rooted phone with netfilter and pppd
 
 # Path to ADB
-export ADB=/opt/android-sdk-linux_x86/platform-tools/adb
+export ADB=/opt/android-sdk/platform-tools/adb
 
 if [ $USER != "root" ]; then
 	echo "Please run this script as root"
